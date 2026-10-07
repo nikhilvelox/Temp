@@ -12,9 +12,8 @@
 
   function AddMail(){
       const sortable = (field) => field === "@timestamp" || fieldMap[field]?.aggregatable;
-shffdghfdgh
-fghfdhfgd
+
 }
 
 
-homeDashbaord.jsx
+export defaultMain.jsx;
