@@ -1,0 +1,21 @@
+  useEffect(() => {
+    setLoadingCategories(true);
+    service.getAdminDeviceName()
+      .then(data => {
+        const list = Array.isArray(data) ? data : [];
+        setCategories(list);
+        if (list.length > 0) setSelectedCategory(list[0]);
+      })
+      .catch(() => { setCategories([]); setSelectedCategory(""); })
+      .finally(() => setLoadingCategories(false));
+  }, []);
+
+  function AddMail(){
+    return (
+        <>
+        <h1>Add mail</h1>
+        <h1>h2 </h1>
+        </>
+    )
+}
+export default AddMail;
