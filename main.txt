@@ -11,12 +11,9 @@
   }, []);
 
   function AddMail(){
-    return (
-        <>
-        <h1>h3 </h1>
-         <h1>h3 </h1>
-        </>
-    )
+      const sortable = (field) => field === "@timestamp" || fieldMap[field]?.aggregatable;
+shffdghfdgh
+fghfdhfgd
 }
 
 
