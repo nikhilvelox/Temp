@@ -13,9 +13,9 @@
   function AddMail(){
     return (
         <>
-        <h1>Add mail</h1>
-        <h1>h2 </h1>
+        <h1>h3 </h1>
+         <h1>h3 </h1>
         </>
     )
 }
-export default AddMail;
+export def AddMail;jsx
